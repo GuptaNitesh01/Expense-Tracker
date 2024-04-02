@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    margin:auto;
+    display:block;
+     width:20%;        
+     text-align:center;   
+     padding-top:20px ;                                                                                                         
+ }
+ .bal {
+    padding-top: 20px;
+    text-align:start ;
+ }
+ .bal i{
+    padding-top:15px;
+    padding-bottom: 15px;
+ }
+#Balance{
+    text-shadow: 0 0 3px #FF0000;
+}
+.cal_box{
+    display: flex;
+    justify-content:  space-around;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 1px 1px 10px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.credit{
+    display: block;
+    color: rgb(24, 245, 24);
+    font-weight: bold;
+    font-size:large;
+}
+.debit{
+    display: block;
+    color: red;
+    font-weight: bold;
+    font-size:large;
+}
+.datastore_box{
+    padding-top: 20px;
+    text-align: start;
+}
+.line{
+    padding:30px 0px 20px 0px; 
+}
+.newaddition{
+    text-align: start;
+    padding-bottom: 20px;
+}
+.text{
+    text-align: start;
+}
+.text p{
+    padding:10px;
+    text-shadow: 0 0 3px #FF0000;
+}
+.amt{
+    padding-top: 20px;
+    text-align: start;
+}
+.amt p{
+    padding-bottom: 10px;
+    text-shadow: 0 0 3px #FF0000;
+}
+.submit_button{
+    padding-top:15px;
+
+}
+.submit{
+    width: 100%;
+    background-color: cyan;
+    color: black;
+    text-align: center;
+    border:none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+#historyprocess{
+    overflow: auto;
+}
